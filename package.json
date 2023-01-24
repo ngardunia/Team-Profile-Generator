@@ -16,6 +16,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "inquirer": "8.2.4"
+  },
   "bugs": {
     "url": "https://github.com/ngardunia/Team-Profile-Generator/issues"
   },
