@@ -13,12 +13,21 @@ describe("Employee", () => {
         });
     });
 });
-//write a test to see if you can set the same as a constructor arguement
-test('Can set name via constructor arguements', () => {
+//write a test to see if you can set the name as a constructor arguement
+//test('Can set name via constructor arguements', () => {
     // variable for name
+    //function Employee(name, id, email) {
+        employee.name = name
+        employee.id = id
+        employee.email = email
+    //}
+
     // variable for a new Employee with that name passed in as an argument
+    //const Employee1 = new Employee ("Nick", 16231, 'nickrhyse@gmail.com');
+
     // expect the variable.name the be the variable that you set up for name
-});
+
+//});
 
 // same as above for id
 
