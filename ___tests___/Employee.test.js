@@ -2,11 +2,17 @@
 const Employee = require("./Employee");
 
 // write a test to see if you can instantiate an Employee instance
-test('Can instantiate Employee instance', () => {
-    // variable for the new Employee
-    // expect the type of that variable to be an object
-});
+describe("Employee", () => {
+    describe("Initialization", () => {
+        it("should test to see if an employee can be instantiated.", () => {
+            const employee = new Employee('Nick', 16231, 'nickrhyse@gmail.com');
 
+            expect(employee.name).toEqual(expect.any(String));
+            expect(employee.id).toEqual(expect.any(Number));
+            expect(employee.email).toEqual(expect.any(String));
+        });
+    });
+});
 //write a test to see if you can set the same as a constructor arguement
 test('Can set name via constructor arguements', () => {
     // variable for name
