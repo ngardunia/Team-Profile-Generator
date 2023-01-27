@@ -1,7 +1,14 @@
 // require all of your classes
+const Manager = require('./lib/Manager');
+const Engineer = require('./lib/Engineer');
+const Intern = require('./lib/Intern');
+
 // require inquirer, path if needed, fs
+const fs = require('fs');
+const inquirer = require('inquirer');
 
 // require your page template
+const generateHTML = require('./src/page-template');
 
 // empty team members array
 // empty id array
