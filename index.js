@@ -39,6 +39,17 @@ function init () {
 
   // next function should be for creating the team
     // this should ask the user what type of employee they would like to create
+    const addEmployee = () => {
+      inquirer
+        .prompt ([
+
+        ])
+
+        .then(answers => {
+          const employee = new Employee(answers.name, answers.email, answers.github, answers.school);
+          const ident = (answers.id);
+        })
+    }
     // in your .then, have a conditional or switch case that runs that employee types function based on what they choose
     // or if they select the option that says they are done adding team members, run the function that builds the team
 
