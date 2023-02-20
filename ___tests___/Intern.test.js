@@ -1,5 +1,5 @@
 // require Intern
-const Inter = require("./Intern");
+const Intern = require("./Intern");
 
 test("Can set school via constructor", () => {
     const intern = new Intern('Nick', 16231, 'mail@mail.com', 'UCF');
