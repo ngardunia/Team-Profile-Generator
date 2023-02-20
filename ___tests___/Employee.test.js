@@ -34,5 +34,5 @@ test("Can get name via getEmail()", () => {
 // same for getting the role
 test("Can get name via getRole()", () => {
     const employee = new Employee('Nick', 16231, 'mail@mail.com');
-    expect(employee.getRole()).toEqual(expect.any(String));
+    expect(employee.getRole()).toEqual('Employee');
 });
